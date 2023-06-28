@@ -1,0 +1,261 @@
+/*tags*/
+
+body 
+{
+    border: none;
+    margin: 0%;
+    outline: 0;
+    scroll-behavior: smooth;
+    font-family: 'Inter', monospace;
+    background-color: rgb(69, 167, 224);
+    height: auto;
+}
+
+h1{
+    font-size: 18px;
+}
+/*------------*/
+
+/* class styles*/
+
+.wrapper{
+    margin: 0 auto;
+
+}
+
+
+/*header*/
+
+.header{
+    height: 50px;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title-header{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    transition: transform .2s;
+    
+}
+
+.links
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 175px;
+    transition: transform .2s;
+}
+
+.links:hover
+{
+    color: rgb(69, 167, 224);
+    transform: scale(1.2);
+}
+
+
+/*end of header*/
+
+
+/*content*/
+
+.home
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.principal
+{ 
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.perfil{
+    margin-top: 10px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+.perfil:hover
+{
+    transform: scale(1.1);
+}
+
+.title-principal
+{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.redes
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-rede
+{
+    transition: transform .2s;
+}
+
+.link-rede:hover
+{
+    transform: scale(1.1);
+}
+
+.subtitle
+{
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.summary-container:hover{
+    transform: scale(1.1);
+    
+}
+
+.title-content
+{
+    text-align: center;
+}
+
+.content{
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+   
+}
+
+.summary-container{
+    width: fit-content;
+    color: white;
+    background-color: #262626;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    transition: transform .2s;
+
+}
+
+.info-personal, .academic-formation, .projects, .curriculum, .abstract
+{
+    color: black;
+    font-family: verdana;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+
+.info-personal:hover, .academic-formation:hover, .projects:hover, .curriculum:hover
+{
+    transform: scale(1.1);
+}
+
+.redirect
+{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.return-header
+{
+    margin-top: 100px;
+    margin-left: 90%;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-curriculum
+{
+    color: white;
+    text-decoration: none;
+    background-color: #262626;
+    border-radius: 20px;
+    padding: 10px;
+    transition: transform .2s;
+}
+
+.btn-projects
+{
+    color: white;
+    text-decoration: none;
+    background-color: #262626;
+    border-radius: 20px;
+    padding: 10px;
+    transition: transform .2s;
+}
+
+.btn-curriculum:hover
+{
+    transform: scale(1.1);
+}
+
+.btn-projects:hover
+{
+    transform: scale(1.1);
+}
+
+.title
+{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/*end of content*/
+
+
+/*footer styles*/
+
+.footer{
+    display:inline-table;
+    width:100%;
+    align-items: center;
+    margin-top: 100px;
+    height: 150px;
+    background: #262626;
+}
+
+.text-footer
+{
+    margin-top: 30px;
+    margin-left: 100px;
+    color:white;
+    font-size: 18px;
+}
+
+.paragraph-footer
+{
+    margin-left: 100px;
+    font-size: 14px;
+    color: white;
+}
+
+.link-insta
+{
+    margin-left: 100px;
+}
